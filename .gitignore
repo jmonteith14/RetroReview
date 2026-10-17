@@ -1,0 +1,4 @@
+# Never commit personal catalogue/review exports or local backups
+retroreview-static-import.json
+retroreview-backup-*.json
+personal-data*.json

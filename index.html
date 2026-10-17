@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1020">
+<title>RetroReview — Generations 3–6</title><link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#dashboard"><span class="brand-mark">RR</span><span>RetroReview</span></a><nav><a href="#dashboard">Dashboard</a><a href="#games">Library</a><a href="#platforms">Platforms</a></nav><div class="top-actions"><button id="themeToggle" class="icon-button" title="Toggle theme">◐</button><button id="backupBtn" class="button">Backup / Import</button></div></header>
+<main class="shell"><section id="view" aria-live="polite"><div class="loading">Loading your library…</div></section></main>
+<div id="toast" class="toast" role="status"></div>
+<dialog id="backupDialog"><div class="dialog-head"><div><div class="eyebrow">YOUR DATA, YOUR DEVICE</div><h2>Backup & restore</h2></div><button id="closeBackup" class="icon-button">×</button></div><p>Export a JSON backup to keep your catalogue and personal reviews safe. Import a backup to restore it on this browser or another device.</p><div class="actions"><button id="exportBtn" class="button primary">Export full backup</button><label class="button file-button">Import JSON backup<input id="importFile" type="file" accept=".json,application/json" hidden></label></div><label class="checkline"><input id="replaceImport" type="checkbox"> Replace local data with imported data (otherwise merge)</label><p class="hint">Importing a backup replaces or merges browser data only. It does not update the files in your GitHub repository.</p><div id="backupStatus" class="hint"></div></dialog>
+<script src="./app.js"></script>
+</body></html>

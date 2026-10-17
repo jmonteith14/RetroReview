@@ -1,0 +1,616 @@
+{
+  "format": "retroreview-static-v1",
+  "generations": [
+    {
+      "id": 1,
+      "number": 3,
+      "name": "Generation 3",
+      "source_url": "https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles",
+      "notes": "Wikipedia explicitly treats handhelds as not a major part of this generation and places Game & Watch/Microvision in the prior generation."
+    },
+    {
+      "id": 2,
+      "number": 4,
+      "name": "Generation 4",
+      "source_url": "https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_consoles",
+      "notes": "The generation page names PC Engine/TurboGrafx-16, Mega Drive/Genesis, Super Famicom/SNES, and Neo Geo as core home systems and Game Boy, Lynx, Game Gear, and TurboExpress as prominent handhelds."
+    },
+    {
+      "id": 3,
+      "number": 5,
+      "name": "Generation 5",
+      "source_url": "https://en.wikipedia.org/wiki/Fifth_generation_of_video_game_consoles",
+      "notes": "Wikipedia's core home comparison is 3DO, Saturn, PlayStation, and Nintendo 64; its other-console and handheld discussion adds Jaguar, 32X, PC-FX, Virtual Boy, Nomad, Neo Geo Pocket, Neo Geo Pocket Color, and Game Boy Color."
+    },
+    {
+      "id": 4,
+      "number": 6,
+      "name": "Generation 6",
+      "source_url": "https://en.wikipedia.org/wiki/Sixth_generation_of_video_game_consoles",
+      "notes": "Wikipedia identifies Dreamcast, PlayStation 2, GameCube, and Xbox as the four major home systems and discusses WonderSwan, Game Boy Advance, GP32, and N-Gage among the handheld market."
+    }
+  ],
+  "platforms": [
+    {
+      "id": 4,
+      "name": "Atari 7800",
+      "slug": "atari-7800",
+      "kind": "home",
+      "manufacturer": "Atari",
+      "release_period": "1986–1992",
+      "generation_id": 1,
+      "source_page_url": "https://en.wikipedia.org/wiki/Atari_7800",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core comparison platform on the generation-3 Wikipedia page.",
+      "generation_number": 3,
+      "generation_name": "Generation 3",
+      "wiki_list_pages": [
+        "List of Atari 7800 games"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Atari XE Video Game System (XEGS)",
+      "slug": "atari-xe-video-game-system-xegs",
+      "kind": "home",
+      "manufacturer": "Atari",
+      "release_period": "1987–1992",
+      "generation_id": 1,
+      "source_page_url": "https://en.wikipedia.org/wiki/Atari_XE_Video_Game_System",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Included because it appears in the generation-3 home-console comparison.",
+      "generation_number": 3,
+      "generation_name": "Generation 3",
+      "wiki_list_pages": [
+        "List of Atari XE Video Game System games"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nintendo Entertainment System / Family Computer",
+      "slug": "nintendo-entertainment-system-family-computer",
+      "kind": "home",
+      "manufacturer": "Nintendo",
+      "release_period": "1983–2003",
+      "generation_id": 1,
+      "source_page_url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Famicom and NES are regional names/forms of the same platform family for game-library purposes.",
+      "generation_number": 3,
+      "generation_name": "Generation 3",
+      "wiki_list_pages": [
+        "List of Nintendo Entertainment System games"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sega Master System / Mark III",
+      "slug": "sega-master-system-mark-iii",
+      "kind": "home",
+      "manufacturer": "Sega",
+      "release_period": "1985–1996+",
+      "generation_id": 1,
+      "source_page_url": "https://en.wikipedia.org/wiki/Master_System",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Japanese Mark III and export Master System are represented as one platform family.",
+      "generation_number": 3,
+      "generation_name": "Generation 3",
+      "wiki_list_pages": [
+        "List of Master System games"
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Sega SG-1000",
+      "slug": "sega-sg-1000",
+      "kind": "home",
+      "manufacturer": "Sega",
+      "release_period": "1983–1985",
+      "generation_id": 1,
+      "source_page_url": "https://en.wikipedia.org/wiki/SG-1000",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core system on the generation-3 Wikipedia page.",
+      "generation_number": 3,
+      "generation_name": "Generation 3",
+      "wiki_list_pages": [
+        "List of SG-1000 games"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Atari Lynx",
+      "slug": "atari-lynx",
+      "kind": "handheld",
+      "manufacturer": "Atari",
+      "release_period": "1989–1995+",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Atari_Lynx",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core handheld identified by the generation-4 page.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Atari Lynx games"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "NEC PC Engine / TurboGrafx-16",
+      "slug": "nec-pc-engine-turbografx-16",
+      "kind": "home",
+      "manufacturer": "NEC",
+      "release_period": "1987–1999",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/TurboGrafx-16",
+      "inclusion_status": "included",
+      "ambiguity_notes": "One platform family covering PC Engine and TurboGrafx-16 regional releases; CD formats are included by the source list where compatible.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of TurboGrafx-16 games"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "NEC TurboExpress / PC Engine GT",
+      "slug": "nec-turboexpress-pc-engine-gt",
+      "kind": "handheld",
+      "manufacturer": "NEC",
+      "release_period": "1990–1994",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/TurboExpress",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Uses the TurboGrafx-16/PC Engine library; game-platform relationship is distinct from the home platform.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of TurboGrafx-16 games"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Nintendo Game Boy",
+      "slug": "nintendo-game-boy",
+      "kind": "handheld",
+      "manufacturer": "Nintendo",
+      "release_period": "1989–2003",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Game_Boy",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Pocket/Light redesigns are retained as variants of this library rather than duplicated platforms.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Game Boy games"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "SNK Neo Geo (AES)",
+      "slug": "snk-neo-geo-aes",
+      "kind": "home",
+      "manufacturer": "SNK",
+      "release_period": "1990–2004",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Neo_Geo_(system)",
+      "inclusion_status": "included",
+      "ambiguity_notes": "AES cartridge console. Arcade/Neo Geo CD rows should not be silently treated as separate platform releases unless the source parser identifies them.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Neo Geo games"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Sega Game Gear",
+      "slug": "sega-game-gear",
+      "kind": "handheld",
+      "manufacturer": "Sega",
+      "release_period": "1990–1997",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Game_Gear",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Separate Game Gear games only; Master System adapter compatibility does not duplicate Master System rows.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Game Gear games"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sega Mega Drive / Genesis",
+      "slug": "sega-mega-drive-genesis",
+      "kind": "home",
+      "manufacturer": "Sega",
+      "release_period": "1988–1997+",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Genesis_(console)",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Regional names are normalized as one platform.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Sega Genesis games"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Super Nintendo Entertainment System / Super Famicom",
+      "slug": "super-nintendo-entertainment-system-super-famicom",
+      "kind": "home",
+      "manufacturer": "Nintendo",
+      "release_period": "1990–2004",
+      "generation_id": 2,
+      "source_page_url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Regional names are normalized as one platform family.",
+      "generation_number": 4,
+      "generation_name": "Generation 4",
+      "wiki_list_pages": [
+        "List of Super Nintendo Entertainment System games"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "3DO Interactive Multiplayer",
+      "slug": "3do-interactive-multiplayer",
+      "kind": "home",
+      "manufacturer": "The 3DO Company / licensed manufacturers",
+      "release_period": "1993–1996",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Licensed hardware variants are one platform family.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of 3DO Interactive Multiplayer games"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Atari Jaguar",
+      "slug": "atari-jaguar",
+      "kind": "home",
+      "manufacturer": "Atari",
+      "release_period": "1993–1996; open-platform releases later",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Atari_Jaguar",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Wikipedia places it in the generation's 'other consoles'; homebrew/aftermarket sections should remain distinct from official releases.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Atari Jaguar games"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "NEC PC-FX",
+      "slug": "nec-pc-fx",
+      "kind": "home",
+      "manufacturer": "NEC",
+      "release_period": "1994–1998",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/PC-FX",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Japan-only fifth-generation console.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of PC-FX games"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Nintendo 64",
+      "slug": "nintendo-64",
+      "kind": "home",
+      "manufacturer": "Nintendo",
+      "release_period": "1996–2003",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Nintendo_64",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Nintendo 64 games"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Nintendo Game Boy Color",
+      "slug": "nintendo-game-boy-color",
+      "kind": "handheld",
+      "manufacturer": "Nintendo",
+      "release_period": "1998–2003",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Game_Boy_Color",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Distinct cartridge compatibility/library from the original Game Boy, so it is a separate platform for review tracking.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Game Boy Color games"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Nintendo Virtual Boy",
+      "slug": "nintendo-virtual-boy",
+      "kind": "tabletop_handheld",
+      "manufacturer": "Nintendo",
+      "release_period": "1995–1996",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Virtual_Boy",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Wikipedia calls it a tabletop console; it is included as a handheld-adjacent portable system rather than a conventional pocket handheld.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Virtual Boy games"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "SNK Neo Geo Pocket",
+      "slug": "snk-neo-geo-pocket",
+      "kind": "handheld",
+      "manufacturer": "SNK",
+      "release_period": "1998–1999",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Neo_Geo_Pocket",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Original monochrome handheld; the combined list page also contains a separate Neo Geo Pocket Color section, which is imported as its own platform below.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Neo Geo Pocket games"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "SNK Neo Geo Pocket Color",
+      "slug": "snk-neo-geo-pocket-color",
+      "kind": "handheld",
+      "manufacturer": "SNK",
+      "release_period": "1999–2001",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Color successor with backward compatibility; kept distinct for platform-specific release dates.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Neo Geo Pocket Color games"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Sega 32X",
+      "slug": "sega-32x",
+      "kind": "home_addon",
+      "manufacturer": "Sega",
+      "release_period": "1994–1996",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/32X",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Expansion module rather than a self-contained console; enabled because Wikipedia lists it among generation-5 'other consoles'.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of 32X games"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Sega Nomad",
+      "slug": "sega-nomad",
+      "kind": "handheld",
+      "manufacturer": "Sega",
+      "release_period": "1995–1997",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Genesis_Nomad",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Portable Genesis variant; it uses the Genesis library. Kept separate at the platform level while sharing source-library relationships.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Sega Genesis games"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sega Saturn",
+      "slug": "sega-saturn",
+      "kind": "home",
+      "manufacturer": "Sega",
+      "release_period": "1994–2000",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/Sega_Saturn",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of Sega Saturn games"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sony PlayStation",
+      "slug": "sony-playstation",
+      "kind": "home",
+      "manufacturer": "Sony",
+      "release_period": "1994–2006",
+      "generation_id": 3,
+      "source_page_url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+      "inclusion_status": "included",
+      "ambiguity_notes": "PSone is treated as the same library, not a separate game platform.",
+      "generation_number": 5,
+      "generation_name": "Generation 5",
+      "wiki_list_pages": [
+        "List of PlayStation (console) games (A–L)",
+        "List of PlayStation (console) games (M–Z)"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Bandai WonderSwan",
+      "slug": "bandai-wonderswan",
+      "kind": "handheld",
+      "manufacturer": "Bandai",
+      "release_period": "1999–2003",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/WonderSwan",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Original monochrome handheld.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of WonderSwan games"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Bandai WonderSwan Color",
+      "slug": "bandai-wonderswan-color",
+      "kind": "handheld",
+      "manufacturer": "Bandai",
+      "release_period": "2000–2003",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/WonderSwan_Color",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Color successor with backward compatibility; kept distinct for platform-specific release tracking.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of WonderSwan Color games"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Game Park GP32",
+      "slug": "game-park-gp32",
+      "kind": "handheld",
+      "manufacturer": "Game Park",
+      "release_period": "2001–2005",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/GP32",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Commercial/homebrew-focused handheld; only commercial game list is used by default.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of commercial GP32 games"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Microsoft Xbox",
+      "slug": "microsoft-xbox",
+      "kind": "home",
+      "manufacturer": "Microsoft",
+      "release_period": "2001–2009 support tail",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/Xbox_(console)",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of Xbox games"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Nintendo Game Boy Advance",
+      "slug": "nintendo-game-boy-advance",
+      "kind": "handheld",
+      "manufacturer": "Nintendo",
+      "release_period": "2001–2010",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+      "inclusion_status": "included",
+      "ambiguity_notes": "SP and Micro are redesigns/variants of the GBA, not separate game libraries.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of Game Boy Advance games"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Nintendo GameCube",
+      "slug": "nintendo-gamecube",
+      "kind": "home",
+      "manufacturer": "Nintendo",
+      "release_period": "2001–2007",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/GameCube",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of GameCube games"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Nokia N-Gage",
+      "slug": "nokia-n-gage",
+      "kind": "handheld",
+      "manufacturer": "Nokia",
+      "release_period": "2003–2005",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/N-Gage_(device)",
+      "inclusion_status": "included",
+      "ambiguity_notes": "PDA/phone plus handheld game device; included because Wikipedia explicitly treats it in the sixth-generation handheld discussion.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of N-Gage games"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Sega Dreamcast",
+      "slug": "sega-dreamcast",
+      "kind": "home",
+      "manufacturer": "Sega",
+      "release_period": "1998–2001/2007 regional software tail",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/Dreamcast",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of Dreamcast games"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Sony PlayStation 2",
+      "slug": "sony-playstation-2",
+      "kind": "home",
+      "manufacturer": "Sony",
+      "release_period": "2000–2013",
+      "generation_id": 4,
+      "source_page_url": "https://en.wikipedia.org/wiki/PlayStation_2",
+      "inclusion_status": "included",
+      "ambiguity_notes": "Core home platform.",
+      "generation_number": 6,
+      "generation_name": "Generation 6",
+      "wiki_list_pages": [
+        "List of PlayStation 2 games"
+      ]
+    }
+  ],
+  "games": [],
+  "reviews": []
+}
